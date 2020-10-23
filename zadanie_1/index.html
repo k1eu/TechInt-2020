@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zadanie1</title>
     <link rel="stylesheet" href="style.css">
+    <script src="movies.js"></script>
 </head>
 <body>
     <header>
@@ -14,19 +15,18 @@
       <section>
         <nav>
           <ul>
-            <li>Avengers</li>
-            <li>Saw</li>
-            <li>Joker</li>
+            <li onclick="changeToAvengers()">Avengers</li>
+            <li onclick="changeToSaw()">Saw</li>
+            <li onclick="changeToJoker()">Joker</li>
           </ul>
         </nav>
       
         <article>
-          <h3>Avengers</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <h3 id="header_name">Avengers</h3>
+          <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                Tempore nemo beatae nisi ipsum itaque laudantium amet quos magnam reiciendis culpa est repellendus temporibus impedit provident eligendi,
                 placeat animi quasi tenetur.
-            </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
               Temporibus ea voluptate nulla, deleniti nihil voluptates atque esse fugit nemo velit adipisci libero unde officiis rerum,
                placeat iste culpa odit voluptatum.
             </p>
